@@ -26,6 +26,10 @@ A function to execute each time the event is triggered. That function should hav
 
 > Important: The context (`this`) of the `handler` function is set to the observable object itself.
 
+##### one `Boolean`
+
+Specifies if event handler should only be executed once.
+
 #### Example - subscribing to an event
 
     <script>
